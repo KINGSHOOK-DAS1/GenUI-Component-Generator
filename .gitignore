@@ -1,0 +1,42 @@
+# Dependencies (huge folder, anyone can recreate it with npm install)
+node_modules/
+
+# Secret keys and environment files (NEVER upload these)
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and IDE files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache and temp files
+.cache/
+.eslintcache
+*.local
+coverage/
