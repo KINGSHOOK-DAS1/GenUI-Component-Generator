@@ -6,11 +6,11 @@ import { MdSettings } from "react-icons/md";
 const Navbar = () => {
   return (
     <>
-    <div className="nav flex items-center justify-between px-[100px] h-[90px] border-b-[1px] border-gray-800">
-      <div className="logo">
-        <h3 className='text-[25px] font-[700] sp-text'>Prompt2UI</h3>
+    <div className="nav flex items-center justify-between gap-3 px-4 sm:px-8 lg:px-[100px] h-[70px] sm:h-[90px] border-b-[1px] border-gray-800">
+      <div className="logo min-w-0">
+        <h3 className='text-[20px] sm:text-[25px] font-[700] sp-text truncate'>Prompt2UI</h3>
       </div>
-      <div className="icons flex items-center gap-[15px]">
+      <div className="icons flex shrink-0 items-center gap-[10px] sm:gap-[15px]">
         <div className="icon"><MdSunny /></div>
         <div className="icon"><FaUser /></div>
         <div className="icon"><MdSettings /></div>
@@ -20,4 +20,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar 
+export default Navbar
